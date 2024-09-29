@@ -5,6 +5,10 @@ import javax.swing.JOptionPane;
 public class Run {
 	
 	public static void main(String[] args) {
+		
+		
+		System.out.println("Probando, mirando si funcionaa");
+		
 		Cuenta cuenta1 = new Cuenta();
 		String cedula = JOptionPane.showInputDialog("Ingrese la cedula");
 		double saldo = Double.parseDouble(JOptionPane.showInputDialog("Ingrese el saldo"));
